@@ -22,6 +22,11 @@ import about01 from '../assets/about01.png';
 import about02 from '../assets/about02.png';
 import about03 from '../assets/about03.png';
 import about04 from '../assets/about04.png';
+import about05 from '../assets/fullstack.jpeg';
+import about06 from '../assets/team-p.jpeg';
+import about07 from '../assets/p-solving.jpeg';
+import about08 from '../assets/adapt.jpeg'
+
 
 import profile from '../assets/profile.png';
 import profile1 from '../assets/profile1.png';
@@ -63,6 +68,10 @@ export default {
   about02,
   about03,
   about04,
+  about05,
+  about06,
+  about07,
+  about08,
   profile,
   profile1,
   circle,
