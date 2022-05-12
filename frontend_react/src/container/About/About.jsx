@@ -15,7 +15,7 @@ const About = () => {
   return (
     <>
       <h2 className="head-text">
-        I have not failed. <span>I’ve just found</span><br />10.000 <span>Ways that won’t work</span></h2>
+        "I have not failed. <span>I’ve just found</span><br />1000 Ways <span>code won’t work"</span></h2>
 
       <div className="app__profiles">
         { abouts.map((about, index) => (
