@@ -43,19 +43,17 @@ const Work = () => {
       </h2>
 
       <div className="app__work-filter">
-        {["Web3", "E-Commerce", "CRUD", "MERN", "All"].map(
-          (item, index) => (
-            <div
-              key={index}
-              onClick={() => handleWorkFilter(item)}
-              className={`app__work-filter-item app__flex p-text ${
-                activeFilter === item ? "item-active" : ""
-              }`}
-            >
-              {item}
-            </div>
-          )
-        )}
+        {["Web3", "E-Commerce", "CRUD", "MERN", "All"].map((item, index) => (
+          <div
+            key={index}
+            onClick={() => handleWorkFilter(item)}
+            className={`app__work-filter-item app__flex p-text ${
+              activeFilter === item ? "item-active" : ""
+            }`}
+          >
+            {item}
+          </div>
+        ))}
       </div>
 
       <motion.div
@@ -117,4 +115,4 @@ const Work = () => {
   );
 };
 
-export default AppWrap(Work, 'work');
+export default AppWrap(Work, "Work");
