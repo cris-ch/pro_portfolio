@@ -15,7 +15,6 @@ const Skills = () => {
     const skillsQuery = '*[_type == "skills"]';
 
     client.fetch(xpQuery).then((data) => {
-      console.log(data);
       setExperience(data);
     });
 
@@ -88,7 +87,7 @@ const Skills = () => {
 };
 
 export default AppWrap(
-  MotionWrap(Skills, 'app__skills'),
-    'Skills',
-    "app__whitebg"
-    );
+  MotionWrap(Skills, "app__skills"),
+  "Skills",
+  "app__whitebg"
+);
