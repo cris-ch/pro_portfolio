@@ -5,7 +5,7 @@
 }
 
 .app__testimonial-item {
-  width: 60%;
+  width: 80%;
   min-height: 320px;
   background-color: var(--white-color);
   display: flex;
@@ -53,8 +53,8 @@
   align-items: flex-start;
 
   p {
-    font-size: 1.25rem;
-    line-height: 2rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
     color: var(--black-color);
     font-family: var(--font-base);
 
@@ -134,7 +134,7 @@
       width: 100%;
       height: auto;
       object-fit: cover;
-      filter: grayscale(1);
+      filter: grayscale(0.8);
     }
 
     &:hover {
