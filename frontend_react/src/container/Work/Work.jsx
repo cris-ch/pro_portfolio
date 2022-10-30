@@ -43,7 +43,7 @@ const Work = () => {
       </h2>
 
       <div className="app__work-filter">
-        {["Web3", "E-Commerce", "CRUD", "MERN", "All"].map((item, index) => (
+        {["HTML", "Javascript", "CSS", "MERN", "Bootstrap", "All"].map((item, index) => (
           <div
             key={index}
             onClick={() => handleWorkFilter(item)}
@@ -103,10 +103,7 @@ const Work = () => {
               <p className="p-text" style={{ marginTop: 10 }}>
                 {work.description}
               </p>
-
-              <div className="app__work-tag app__flex">
-                <p className="p-text">{work.tags[0]}</p>
-              </div>
+           
             </div>
           </div>
         ))}
@@ -116,7 +113,7 @@ const Work = () => {
 };
 
 export default AppWrap(
-  MotionWrap(Work, 'app__works'),
-    'Work',
-    "app__primarybg"
-    );
+  MotionWrap(Work, "app__works"),
+  "Work",
+  "app__primarybg"
+);
